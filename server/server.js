@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/styles', function(req,res) {
-    res.sendFile(path.join(__dirname, "../public/index.css"))
+    res.sendFile(path.join(__dirname, "../public/styles.css"))
 })
 
 // we don't designate a port because the cloud service will
