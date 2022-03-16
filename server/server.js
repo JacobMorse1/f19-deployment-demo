@@ -8,7 +8,7 @@ app.use(express.json());
 
 //MIDDLEWARE
 app.use(express.static(path.join(__dirname, "../public")));
-app.use("/styles", express.static(path.join(__dirname, "../public")));
+// app.use("/styles", express.static(path.join(__dirname, "../public")));
 
 
 //ENDPOINTS
